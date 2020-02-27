@@ -1,6 +1,10 @@
-# Contributing to this Page:
+# Topics in Information theory, Chaos and Causal Learning
 
-When you write a post, make sure to add the following lines as the front matter (the very first lines) of your markdown file:
+This is a series of lectures on various topics in information theory, chaos and causal learning by Dr. Nithin Nagaraj at the National Institute of Advanced Studies, Bangalore.
+
+## Contributing to this Page:
+
+If you are a contributor, when you write a post, make sure to add the following lines as the front matter (the very first lines) of your markdown file:
 
 
 ```
