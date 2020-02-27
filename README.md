@@ -1,7 +1,10 @@
+# Contributing to this Page:
 
-# About Us
-
-test given \\(P(A \cap B) = P(A) \cdot P(B) \\)
-
-$$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
-
+When you write a post, make sure to add the following lines as the front matter (the very first lines) of your markdown file:
+'''
+---
+layout: post
+mathjax: true
+author: <your_name>
+---
+'''
