@@ -20,9 +20,11 @@ Consider an arbitrary set $X$. Given $x \in X$ we can define a collection of set
 
 #### Definitions:
 
-$U \subseteq \mathbb R^n$ is open if,
+$U \subseteq \mathbb R^n$ is open if,  
+
 $$\forall x \in U, \exists \text{ } \epsilon > 0$$
-such that ,
+such that,  
+
 $$\{|y-x| < \epsilon \implies y \in U | y \in \mathbb R^n\}$$
 
 For any collection of open sets,
@@ -61,7 +63,8 @@ Any finite union of closed sets is closed.
 ##### Proof:
 Consider the above given topological space $T = (X, \tau)$. Let $\bigcup_{i=1}^n V_i$ be a finite union of closed sets of $T$.
 
-Then from [De Morgan's laws](https://proofwiki.org/wiki/De_Morgan%27s_Laws_(Set_Theory)):
+Then from [De Morgan's laws](https://proofwiki.org/wiki/De_Morgan%27s_Laws_(Set_Theory)):  
+
 $$X \setminus \bigcup_{i=1}^n V_i = \bigcap_{i=1}^n (X \setminus V_i)$$
 
 By definition, $X \setminus V_i$ is an open set in $T$.
@@ -77,6 +80,7 @@ $\implies$RHS is also an open set. Hence $S \setminus \bigcup_{i=1}^n V_i$ is op
 ### Proof for the infinitude of Primes
 
 Let $O \subseteq \mathbb Z$. $O$ is an open set if it is either empty or, $\forall a \in O$, $\exists b>0$ such that
+
 $$N_{a, b} = \{a + nb\big|n\in \mathbb Z\}$$
 and $N_{a,b} \subseteq O$.
 
@@ -89,9 +93,11 @@ By this definition, we can observe two facts:
 - Any $N_{a, b}$ is closed as well.
 
 To prove the second fact, we can say that
+
 $$N_{a, b} = \mathbb Z \setminus \bigcup_{i=1}^{b-1} N_{a+i, b}$$
 
 Observe the fact that $\forall n \in \mathbb Z \setminus \{-1, 1\}$, there exists a prime divisor $p \in \mathbb P$. Hence we can say,
+
 $$ \bigcup_{p \in \mathbb P} N_{0, p} = \mathbb Z \setminus \{-1, 1\} $$
 
 Now, if $\mathbb P$ is a finite set, then LHS is a finite union of closed sets and hence, is closed (proved in Theorem 1).
