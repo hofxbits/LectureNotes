@@ -102,4 +102,4 @@ $$ \bigcup_{p \in \mathbb P} N_{0, p} = \mathbb Z \setminus \{-1, 1\} $$
 
 Now, if $\mathbb P$ is a finite set, then LHS is a finite union of closed sets and hence, is closed ( proved in Theorem 1 ).
 
-$\implies$ (\{-1, 1\}) should be an open set. But, as stated earlier, any nonempty open set is infinite. Hence, this is a contradiction. $\mathbb P$ should be an infinite set. (\square)
+$\implies$ (\{-1, 1\}) should be an open set. But, as stated earlier, any nonempty open set is infinite. Hence, this is a contradiction. $\mathbb P$ should be an infinite set. \(\square\)
