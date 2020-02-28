@@ -1,5 +1,6 @@
 ---
 layout: default
+mathjax: true
 title: H(x) bits
 ---
 # Welcome
