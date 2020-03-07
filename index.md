@@ -4,4 +4,4 @@ mathjax: true
 title: H(x) bits
 ---
 # Welcome
-This is the homepage of H(x) bits which contains lecture notes on the course "Topics in Information Theory, Chaos and Causal Learning" offered by Dr. Nithin Nagaraj (Email: nithin@nias.res.in) at the Consciousness Studies Programme, National Institute of Advanced Studies, Bengaluru.
+This is the homepage of H(x) bits which contains lecture notes on the course "Topics in Information Theory, Chaos and Causal Learning" offered by [Dr. Nithin Nagaraj](https://sites.google.com/site/nithinnagaraj2/) (Email: nithin@nias.res.in) at the Consciousness Studies Programme, National Institute of Advanced Studies, Bengaluru.
