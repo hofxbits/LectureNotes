@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-author: Abhishek
+author: Abhishek Nandekar
 title: "Lecture 2 Extension: Proofs for the Infinitude of primes"
 ---
 
