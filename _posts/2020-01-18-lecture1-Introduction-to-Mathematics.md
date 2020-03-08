@@ -2,13 +2,7 @@
 layout: post
 author: Harikrishnan N B 
 mathjax: true
-title: Introduction To Mathematics
 ---
-
-### Topics in Information Theory, Chaos & Causal Learning
-
-# Lecture 1: Introduction to Mathematics
-
 
 ### What is Mathematics?
 
