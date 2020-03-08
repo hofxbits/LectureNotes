@@ -2,10 +2,8 @@
 layout: post
 mathjax: true
 author: Abhishek
-title: "Lecture 2 Extension - Proofs for the Infinitude of primes"
+title: "Lecture 2 Extension: Proofs for the Infinitude of primes"
 ---
-
-# Proof for infinitude of Primes
 
 ## The Topological Approach:
 
