@@ -4,7 +4,7 @@ title: Lectures
 ---
 <h1>Latest Posts</h1>
 <ul>
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
     <li>
         <h2><a href="/LectureNotes/{{ post.url }}">{{post.title}}</a></h2>
     </li>
