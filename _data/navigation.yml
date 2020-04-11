@@ -1,6 +1,9 @@
 - name: Home
   link: /LectureNotes
+  image: /LectureNotes/logo.png
 - name: About
   link: /LectureNotes/about.html
+  image:
 - name: Lectures
   link: /LectureNotes/blog.html
+  image: 
