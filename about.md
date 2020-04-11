@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+logo: true
 ---
 
 # About Us
@@ -20,4 +21,3 @@ N
 6. Rahul
 
 ## Others
-
