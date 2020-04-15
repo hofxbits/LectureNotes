@@ -2,7 +2,7 @@
 layout: default
 mathjax: true
 title: H(x) bits
-logo: true
+logo_large: true
 department: School of Humanities
 ---
 # Welcome

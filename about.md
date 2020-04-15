@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-logo: true
+logo_small: true
 ---
 
 # About Us
