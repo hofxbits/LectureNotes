@@ -3,7 +3,6 @@ layout: default
 mathjax: true
 title: H(x) bits
 logo: true
-institution: National Institute of Advanced Studies, Bengaluru
 department: School of Humanities
 ---
 # Welcome
