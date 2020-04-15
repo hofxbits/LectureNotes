@@ -18,5 +18,6 @@ include:
 remote_theme: thekoc11/cayman
 title: This is H(x) bits!
 description: Lecture notes on "Topics in Information Theory, Chaos and Causal Learning"
-department: Consciousness Studies Programme
+programme: Consciousness Studies Programme
+department: School of Humanities
 institution: National Institute of Advanced Studies, Bengaluru
