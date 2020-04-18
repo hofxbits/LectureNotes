@@ -2,13 +2,8 @@
 layout: post
 mathjax: true
 author: Aditi Kathpalia
-title: "Lecture 2 Extension: Proofs for the Infinitude of primes"
+title: "Lecture 2 Extension: Proofs for the Infinitude of primes - Using Mersenne Numbers"
 ---
-
-
-**Proof on the Infinitude of Primes - using Mersenne numbers**
-
-
 
 Suppose $\mathbb{P}$, the set of primes is finite and $p$ is the largest prime. We have assumed a contradiction to the fact that the set $\mathbb{P}$ is infinite. Numbers of the form $2^s-1$ are called Mersenne numbers, where $s$ is a prime. Let us consider the Mersenne number $2^p-1$ . Then two cases arise:
 
@@ -20,14 +15,14 @@ We know that $2^p-1>p$  as $p>1$. If that is the case, there is a contradiction 
 
 For this case we show that a prime factor $q$ of $2^p-1$ is greater than $p$, which again is a contradiction to the fact that the set $\mathbb{P}$ is finite (with $p$ being the largest prime).
 
-Since $q \vert 2^p-1$, $2^p-1 \equiv 0 \,(\mod q)$  or
+Since $q \vert 2^p-1$, $2^p-1 \equiv 0 \,(\mod q)$  or  
 $$
 \begin{equation}
 \tag{1}
 2^p \equiv 1 \,(\mod q)
 \label{eq_1}
 \end{equation}
-$$
+$$  
 To explain congruence and modular arithmetic (the notations of $\equiv$ and $\mod{}$) as well as some amount of group theory (which will be used in the proof), we take a detour and then come back to the proof.
 
 **Detour**
@@ -50,17 +45,17 @@ A group $G$ is a set of elements $a,b,c,\ldots$ together with a single valued bi
 
 2. the associative law holds, namely,  $a \oplus (b \oplus c) = (a \oplus b) \oplus c \: \forall \: a,b,c \in G$.
 
-3. the set has a unique identity element, $e$. That is,
+3. the set has a unique identity element, $e$. That is,  
 
-   $\exists \: e \in G$ s.t. $\forall \: a \in G, \: a \oplus e=e \oplus a = a $.
+   $\exists \: e \in G$ s.t. $\forall \: a \in G, \: a \oplus e=e \oplus a = a$.
 
-4.   each element in $G$ has a unique inverse in $G$.
+4.   each element in $G$ has a unique inverse in $G$.  
 
    $\forall \: a \in G, \: \exists \: a^{-1} \in G$, s.t.  $a \oplus a^{-1}= a^{-1} \oplus a$
 
 There is an extra condition for an abelian/ commutative group, which is as follows:
 
-$a \oplus b= b \oplus a \: \forall$ pair of elements $a,b \in G$ .
+$a \oplus b= b \oplus a \: \forall$ pair of elements $\\{a,b\\} \in G$ .
 
 Examples - $(\mathbb{Z},+)$ is  a group, $(\mathbb{R}^*,\times)$ , where $\mathbb{R}^*= \{\mathbb{R}-0\}$ is a group
 

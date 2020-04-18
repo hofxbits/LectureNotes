@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 author: Abhishek Nandekar
-title: "Lecture 2 Extension: Proofs for the Infinitude of primes"
+title: "Lecture 2 Extension: Proofs for the Infinitude of primes - Using Topology"
 ---
 
 ## The Topological Approach:
