@@ -1,7 +1,7 @@
 ---
-layout: post
-mathjax: true
-author: Aditi Kathpalia
+layout: post  
+mathjax: true  
+author: Aditi Kathpalia   
 title: "Lecture 2 Extension: Proofs for the Infinitude of primes - Using Mersenne Numbers"
 ---
 
@@ -123,7 +123,7 @@ bx_1+qy_1=1
 \end{equation}
 $$
 
-​		From Eqs. \eqref{eq_gcd_1} and $\eqref{eq_gcd_2}$, we get,  
+​		From Eqs. $\ref{eq_gcd_1}$ and $\eqref{eq_gcd_2}$, we get,  
 
 ​		
 $$
@@ -194,6 +194,6 @@ b_k,b_ka,b_ka^2, \ldots, b_ka^{r-1}
 $$
 then the order of the group is $kr$ and $r|kr$. Hence, it is proved that the order of an element of a finite group is a divisor of the order of the group.
 
-Now, if we consider for our group  $\mathbb{Z_q}^*$, since $p$ is the order of element 2 in the group and $q-1$ is the order of the group, it can be said that $p|(q-1)$. This means that $p \leq (q-1)$. Hence, $p < q$.
+Now, if we consider for our group  $\mathbb{Z_q}^*$, since $p$ is the order of element 2 in the group and $q-1$ is the order of the group, it can be said that $p\|(q-1)$. This means that $p \leq (q-1)$. Hence, $p < q$.
 
 Thus, we have proved that $\exists$ a prime $q>p$. This is a contradiction to the fact that $\mathbb{P}$ is a finite set with $p$ being the largest prime. Hence, it is proved that the number of primes is infinite.    
