@@ -7,11 +7,11 @@ title: "Lecture 2 Extension: Proofs for the Infinitude of primes - Using Mersenn
 
 Suppose $\mathbb{P}$, the set of primes is finite and $p$ is the largest prime. We have assumed a contradiction to the fact that the set $\mathbb{P}$ is infinite. Numbers of the form $2^s-1$ are called Mersenne numbers, where $s$ is a prime. Let us consider the Mersenne number $2^p-1$ . Then two cases arise:
 
-**Case 1:**  $2^p-1$ is a prime.
+__Case 1:__  $2^p-1$ is a prime.
 
 We know that $2^p-1>p$  as $p>1$. If that is the case, there is a contradiction to the assumption that $p$ is the largest prime.  Hence the assumption is false and the set $\mathbb{P}$ is infinite.
 
-**Case 2:** $2^p-1$ is not a prime.
+__Case 2:__ $2^p-1$ is not a prime.
 
 For this case we show that a prime factor $q$ of $2^p-1$ is greater than $p$, which again is a contradiction to the fact that the set $\mathbb{P}$ is finite (with $p$ being the largest prime).
 
@@ -25,9 +25,9 @@ $$
 $$  
 To explain congruence and modular arithmetic (the notations of $\equiv$ and $\mod{}$) as well as some amount of group theory (which will be used in the proof), we take a detour and then come back to the proof.
 
-**Detour**
+__Detour__
 
-**Congruence** is a statement about divisibility. It is defined as follows:
+__Congruence__ is a statement about divisibility. It is defined as follows:
 
 If an integer, $m$, not zero, divides the difference $a-b$, we say that $a$ is congruent to $b$ modulo $m$ and write it as $a \equiv b \,(\mod m)$.  If $a-b$ is not divisible by $m$, we say that $a$ is not congruent to $b$ modulo $m$ and write it as $a \not\equiv b \,(\mod m)$.
 
@@ -37,7 +37,7 @@ For e.g. - $3 \equiv 5 \,(\mod 2)$, $10 \equiv 0 \,(\mod 5)$, $5 \not\equiv 13 \
 
 $a-b \equiv 0 \,(\mod m)$, $a \equiv b \,(\mod m)$ and $b \equiv a \,(\mod m)$ are equivalent statements.
 
-**Groups**
+__Groups__
 
 A group $G$ is a set of elements $a,b,c,\ldots$ together with a single valued binary operation $\oplus$ such that,
 
@@ -57,7 +57,7 @@ There is an extra condition for an abelian/ commutative group, which is as follo
 
 $a \oplus b= b \oplus a \: \forall$ pair of elements $\\{a,b\\} \in G$ .
 
-Examples - $(\mathbb{Z},+)$ is  a group, $(\mathbb{R}^*,\times)$ , where $\mathbb{R}^*= \{\mathbb{R}-0\}$ is a group
+Examples - $(\mathbb{Z},+)$ is  a group, $(\mathbb{R}^\ast,\times)$ , where $\mathbb{R}^\ast= \{\mathbb{R}-0\}$ is a group
 
 Other groups can be formed by taking congruences modulo $m$.
 
@@ -65,25 +65,25 @@ Additive group modulo 6 is as depicted below:
 
 | $\oplus$ |  0   |  1   |  2   |  3   |  4   |  5   |
 | :------: | :--: | :--: | :--: | :--: | :--: | :--: |
-|  **0**   |  0   |  1   |  2   |  3   |  4   |  5   |
-|  **1**   |  1   |  2   |  3   |  4   |  5   |  0   |
-|  **2**   |  2   |  3   |  4   |  5   |  0   |  1   |
-|  **3**   |  3   |  4   |  5   |  0   |  1   |  2   |
-|  **4**   |  4   |  5   |  0   |  1   |  2   |  3   |
-|  **5**   |  5   |  0   |  1   |  2   |  3   |  4   |
+|  __0__   |  0   |  1   |  2   |  3   |  4   |  5   |
+|  __1__   |  1   |  2   |  3   |  4   |  5   |  0   |
+|  __2__   |  2   |  3   |  4   |  5   |  0   |  1   |
+|  __3__   |  3   |  4   |  5   |  0   |  1   |  2   |
+|  __4__   |  4   |  5   |  0   |  1   |  2   |  3   |
+|  __5__   |  5   |  0   |  1   |  2   |  3   |  4   |
 
 
 
 A multiplicative group modulo 3 is as given below:
 
-| **$\times$** |  1   |  2   |
+| __$\times$__ |  1   |  2   |
 | :----------: | :--: | :--: |
-|    **1**     |  1   |  2   |
-|    **2**     |  2   |  1   |
+|    __1__     |  1   |  2   |
+|    __2__     |  2   |  1   |
 
 
 
-Now we define the **order of an element** of a group as well as a **cyclic group**.
+Now we define the __order of an element__ of a group as well as a __cyclic group__.
 
 Let $G$ be any group, finite or infinite, and $a$ an element of $G$. If $a^s=e$ ($e$ is identity element of the group) for  some positive integer $s$, then $a$ is said to be of finite order. If $a$ is of finite order, the order of $a$ is the smallest positive integer $r$ such that $a^r=e$. If there is no positive integer $s$ such that $a^s=e$, then $a$ is said to be of infinite order.
 
@@ -95,13 +95,13 @@ $$
 
 comprise the whole group; such an element $a$ is said to generate the group and is called a generator.
 
-The **order of a group** is equal to the number of elements in the group.
+The __order of a group__ is equal to the number of elements in the group.
 
-Now, let us get **back to the proof**.
+Now, let us get __back to the proof__.
 
-We construct a multiplicative group $\mod q$, $(\mathbb{Z_q}^*,\cdot)$ where $q$ is the prime number considered before. The group $\mathbb{Z_q}^*$ consists of elements $\\{1,2,\ldots,q-1\\}$.  We prove that for any prime $q$, $\mathbb{Z_q}^*$ is a multiplicative group, by showing that it satisfies the axioms of a group:
+We construct a multiplicative group $\mod q$, $(\mathbb{Z_q}^\ast,\cdot)$ where $q$ is the prime number considered before. The group $\mathbb{Z_q}^\ast$ consists of elements $\\{1,2,\ldots,q-1\\}$.  We prove that for any prime $q$, $\mathbb{Z_q}^\ast$ is a multiplicative group, by showing that it satisfies the axioms of a group:
 
-1. Closure: If $a,b \in  \mathbb{Z_q}^*$, then $a \cdot b \in \mathbb{Z_q}^*$
+1. Closure: If $a,b \in  \mathbb{Z_q}^\ast$, then $a \cdot b \in \mathbb{Z_q}^\ast$
 
    Since $q$ is a prime and contains only integers less than itself,  $gcd(a,q)=1$ and $gcd(b,q)=1$.
 
@@ -136,32 +136,32 @@ ab(x_0x_1)+q(ax_0y_1+y_0bx_1+qy_0y_1)=1
 \label{eq_gcd_3}
 \end{equation}
 $$
-​		Based on Eq. $\ref{eq_gcd_3}$, it can be said that $gcd(ab,q)=1$. Hence  $a \cdot b \in \mathbb{Z_q}^*$.
+​		Based on Eq. $\ref{eq_gcd_3}$, it can be said that $gcd(ab,q)=1$. Hence  $a \cdot b \in \mathbb{Z_q}^\ast$.
 
 2. Identity:
    $$
-   1 \cdot a= a \cdot 1=a \: \forall \: a \in \mathbb{Z_q}^*
+   1 \cdot a= a \cdot 1=a \: \forall \: a \in \mathbb{Z_q}^\ast
    $$
 
 3. Associativity: holds for multiplication and also for modular multiplication.
 
-4. Inverse: From Eq. $\ref{eq_gcd_1}$, we have $ax_0+qy_0=1$. Taking modulo $q$ on both sides, we get $ax_0=1 \: (\mod q)$.  It can also be visualized as $x_0a+qy_0=1$. Thus, $gcd(x_0,q)=1$. From this, it can be said that $x_0=a^{-1} \in \mathbb{Z_q}^*$.
+4. Inverse: From Eq. $\ref{eq_gcd_1}$, we have $ax_0+qy_0=1$. Taking modulo $q$ on both sides, we get $ax_0=1 \: (\mod q)$.  It can also be visualized as $x_0a+qy_0=1$. Thus, $gcd(x_0,q)=1$. From this, it can be said that $x_0=a^{-1} \in \mathbb{Z_q}^{\ast}$.
 
-   To show the uniqueness of the $a^{-1}$, let us consider $x_{0}' \in \mathbb{Z_q}^*$ such that $x_{0}' \neq x_0$ and $ax_{0}'=1 \: (\mod q)$.  Thus, $ax_{0}'=ax_0 \: (\mod q)$. Multiplying with $a^{-1}$ on RHS, we get:
+   To show the uniqueness of the $a^{-1}$, let us consider $x_{0}' \in \mathbb{Z_q}^{\ast}$ such that $x_{0}' \neq x_0$ and $ax_{0}'=1 \: (\mod q)$.  Thus, $ax_{0}'=ax_0 \: (\mod q)$. Multiplying with $a^{-1}$ on RHS, we get:
    $$
    x_{0}'=x_0 \: (\mod q)
    $$
-   Since $x_{0}' \in \mathbb{Z_q}^*$, $1\leq x_{0}' < q$. So the above equation is impossible for $x_{0}' \neq x_0$. Hence, a unique inverse exists.
+   Since $x_{0}' \in \mathbb{Z_q}^\ast$, $1\leq x_{0}' < q$. So the above equation is impossible for $x_{0}' \neq x_0$. Hence, a unique inverse exists.
 
 
 
-Thus, we have proved that $\mathbb{Z_q}^*$ is a **multiplicative group**. Moreover, it is a proved theorem that $\mathbb{Z_q}^*$ is a **cyclic group** for any prime $q$.  We omit the proof for this here.
+Thus, we have proved that $\mathbb{Z_q}^\ast$ is a __multiplicative group__. Moreover, it is a proved theorem that $\mathbb{Z_q}^\ast$ is a __cyclic group__ for any prime $q$.  We omit the proof for this here.
 
-From Eq. $\ref{eq_1}$, if we consider the group $\mathbb{Z_q}^*$, with 2 being an element of the group; we can observe that $p$ is the order of 2. Since $p$ is prime, there can be no positive integer $c<p$ for which $2^c \equiv 1 \: (\mod q)$ holds.
+From Eq. $\ref{eq_1}$, if we consider the group $\mathbb{Z_q}^\ast$, with 2 being an element of the group; we can observe that $p$ is the order of 2. Since $p$ is prime, there can be no positive integer $c<p$ for which $2^c \equiv 1 \: (\mod q)$ holds.
 
-Now, according to a **special case of Lagrange's theorem**, if a group $G$ has a cyclic group as its subgroup, then,
+Now, according to a __special case of Lagrange's theorem__, if a group $G$ has a cyclic group as its subgroup, then,
 
-**The order of an element of a finite group $G$ is a divisor of the order of the group.**
+__The order of an element of a finite group $G$ is a divisor of the order of the group.__
 
 Proof: Let the element $a$ be a generator of the group and have order $r$. Then,
 $$
@@ -195,6 +195,6 @@ b_k,b_ka,b_ka^2, \ldots, b_ka^{r-1}
 $$
 then the order of the group is $kr$ and $r\|kr$. Hence, it is proved that the order of an element of a finite group is a divisor of the order of the group.
 
-Now, if we consider for our group  $\mathbb{Z_q}^*$, since $p$ is the order of element 2 in the group and $q-1$ is the order of the group, it can be said that $p\|(q-1)$. This means that $p \leq (q-1)$. Hence, $p < q$.
+Now, if we consider for our group  $\mathbb{Z_q}^\ast$, since $p$ is the order of element 2 in the group and $q-1$ is the order of the group, it can be said that $p\|(q-1)$. This means that $p \leq (q-1)$. Hence, $p < q$.
 
 Thus, we have proved that $\exists$ a prime $q>p$. This is a contradiction to the fact that $\mathbb{P}$ is a finite set with $p$ being the largest prime. Hence, it is proved that the number of primes is infinite.    
