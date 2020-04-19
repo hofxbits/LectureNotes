@@ -87,10 +87,12 @@ Now we define the **order of an element** of a group as well as a **cyclic group
 
 Let $G$ be any group, finite or infinite, and $a$ an element of $G$. If $a^s=e$ ($e$ is identity element of the group) for  some positive integer $s$, then $a$ is said to be of finite order. If $a$ is of finite order, the order of $a$ is the smallest positive integer $r$ such that $a^r=e$. If there is no positive integer $s$ such that $a^s=e$, then $a$ is said to be of infinite order.
 
-A group $G$ is said to be cyclic if it contains an element $a$ such that the powers of $a$
+A group $G$ is said to be cyclic if it contains an element $a$ such that the powers of $a$   
+
 $$
 \ldots a^{-3}, a^{-2}, a^{-1}, a^0=e, a, a^2, a^3, \ldots
-$$
+$$   
+
 comprise the whole group; such an element $a$ is said to generate the group and is called a generator.
 
 The **order of a group** is equal to the number of elements in the group.
@@ -105,25 +107,24 @@ We construct a multiplicative group $\mod q$, $(\mathbb{Z_q}^*,\cdot)$ where $q$
 
    Now, according to Bezout's identity, if $a'$ and $q'$ are integers with $gcd(a',q')=d$, then $\exists \: x',y' \in \mathbb{Z}$ such that $a'x'+q'y'=d$. More generally, any integers of the form $a'x'+q'y'$ are multiples of $d$.
 
-   Thus, in our case, the below equations are satisfied
+   Thus, in our case, the below equations are satisfied.
+$$
+  \begin{equation}
+  \tag{GCD1}
+  ax_0+qy_0=1
+  \label{eq_gcd_1}
+  \end{equation}
+  $$
 
-$$
-\begin{equation}
-\tag{GCD1}
-ax_0+qy_0=1
-\label{eq_gcd_1}
-\end{equation}
-$$
+  $$
+  \begin{equation}
+  \tag{GCD2}
+  bx_1+qy_1=1
+  \label{eq_gcd_2}
+  \end{equation}
+  $$
 
-$$
-\begin{equation}
-\tag{GCD2}
-bx_1+qy_1=1
-\label{eq_gcd_2}
-\end{equation}
-$$
-
-​		From Eqs. $\ref{eq_gcd_1}$ and $\eqref{eq_gcd_2}$, we get,  
+  From Eqs. $\ref{eq_gcd_1}$ and $\eqref{eq_gcd_2}$, we get,  
 
 ​		
 $$
@@ -192,7 +193,7 @@ This process of obtaining new elements $b_2,b_3,\ldots$ must terminate since $G$
 $$
 b_k,b_ka,b_ka^2, \ldots, b_ka^{r-1}
 $$
-then the order of the group is $kr$ and $r|kr$. Hence, it is proved that the order of an element of a finite group is a divisor of the order of the group.
+then the order of the group is $kr$ and $r\|kr$. Hence, it is proved that the order of an element of a finite group is a divisor of the order of the group.
 
 Now, if we consider for our group  $\mathbb{Z_q}^*$, since $p$ is the order of element 2 in the group and $q-1$ is the order of the group, it can be said that $p\|(q-1)$. This means that $p \leq (q-1)$. Hence, $p < q$.
 
