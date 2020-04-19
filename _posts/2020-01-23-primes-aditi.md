@@ -128,14 +128,17 @@ $$
 
 ​		
 $$
-\begin{equation}
+\begin{equation*}
 \tag{GCD3}
-(ax_0+qy_0)(bx_1+qy_1)=1 \\
-ax_0bx_1+ax_0qy_1+qy_0bx_1+qy_0qy_1=1 \\
-ab(x_0x_1)+q(ax_0y_1+y_0bx_1+qy_0y_1)=1
+(ax_0+qy_0)(bx_1+qy_1) =1 \\
+ax_0bx_1+ax_0qy_1+qy_0bx_1+qy_0qy_1 =1 \\
+ab(x_0x_1)+q(ax_0y_1+y_0bx_1+qy_0y_1) =1
 \label{eq_gcd_3}
-\end{equation}
-$$
+\end{equation*}
+$$      
+
+
+
 ​		Based on Eq. $\ref{eq_gcd_3}$, it can be said that $gcd(ab,q)=1$. Hence  $a \cdot b \in \mathbb{Z_q}^\ast$.
 
 2. Identity:
