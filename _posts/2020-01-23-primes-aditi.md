@@ -3,7 +3,7 @@ layout: post
 mathjax: true  
 type: "proof"  
 author: Aditi Kathpalia   
-title: "Lecture 2 Extension: Proofs for the Infinitude of primes - Using Mersenne Numbers"
+title: "Using Mersenne Numbers"
 ---
 
 Suppose $\mathbb{P}$, the set of primes is finite and $p$ is the largest prime. We have assumed a contradiction to the fact that the set $\mathbb{P}$ is infinite. Numbers of the form $2^s-1$ are called Mersenne numbers, where $s$ is a prime. Let us consider the Mersenne number $2^p-1$ . Then two cases arise:
