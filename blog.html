@@ -12,3 +12,13 @@ logo_small: true
     </li>
     {% endfor %}
 </ul>
+
+<h1>Proofs</h1>
+<ul>
+    {% for post in site.proofs reversed %}
+    <li>
+        <h4><a href="/LectureNotes/{{ post.url }}">{{post.title}}</a></h4>
+        <p></p>
+    </li>
+    {% endfor %}
+</ul>
