@@ -6,19 +6,23 @@ logo_small: true
 <h1>Latest Posts</h1>
 <ul>
     {% for post in site.posts reversed %}
+    {% if post.type != "proof" %}
     <li>
         <h4><a href="/LectureNotes/{{ post.url }}">{{post.title}}</a></h4>
         <p></p>
     </li>
+    {% endif %}
     {% endfor %}
 </ul>
 
 <h1>Proofs</h1>
 <ul>
-    {% for post in site.proofs reversed %}
+    {% for post in site.posts reversed %}
+    {% if post.type == "proof" %}
     <li>
         <h4><a href="/LectureNotes/{{ post.url }}">{{post.title}}</a></h4>
         <p></p>
     </li>
+    {% endif %}
     {% endfor %}
 </ul>

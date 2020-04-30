@@ -1,6 +1,7 @@
 ---
 layout: post
 mathjax: true
+type: "proof"
 author: Abhishek Nandekar
 title: "Lecture 2 Extension: Proofs for the Infinitude of primes - Using Topology"
 ---
