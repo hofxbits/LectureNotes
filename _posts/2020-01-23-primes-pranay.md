@@ -96,19 +96,26 @@ $$
 \sum\frac{1}{m}=(1+\frac{1}{p_1}+\frac{1}{p^2_1}+\frac{1}{p^3_1}+\ldots)(1+\frac{1}{p_2}+\frac{1}{p^2_2}+\frac{1}{p^3_2}+\ldots) \\
 $$
 Thus, for all primes $p\le z$ the sum can be written as  
+  
+  
 $$
 \ln{z} \le \sum\frac{1}{m} = \prod_{p\le z}({\sum_{k\ge 0}\frac{1}{p^{k}}}) \\
 \text{where the inner sum }{\sum_{k\ge 0}\frac{1}{p^{k}}} \text{ is a geometric series with ratio }\frac{1}{p} \\
 \ln{z} \le \prod_{p\le z}\frac{1}{1-\frac{1}{p}} \\
 \ln{z} \le \prod_{p\le z}\frac{p}{p-1} \\
-$$
+$$  
 
-##### 4. Tricks of bounds  
 
+##### 4. Tricks of bounds   
+  
 The bound on the product above $p \le z$ can be expressed in terms of primes indexed by $k$ where $k$ extends from the first prime ($k=1$) to the last prime, bounded by $\pi(z)$  
-$$
+  
+  
+  
+$$  
 \ln{z} \le \prod_{k=1}^{\pi(z)}\frac{p}{p-1} \\
-$$
+$$  
+
 Examining the trends of primes and their respective indexes, at index $k=1,\ p_1=2$, at $k=2,\ p_2=3$, at $k=3,\ p_3=5$ and so on, leading to the observation that the primes grow faster than their index (enumeration), formally stated as:  
 $$
 p_k\ge k+1 \\
@@ -118,6 +125,9 @@ p_k-1\ge k \\
 1+\frac{1}{p_k-1}\le 1+\frac{1}{k} \\
 \frac{p}{p_k-1}\le \frac{k+1}{k} \\
 $$
+  
+  
+  
 Substituting this inequality in the product above:  
 $$
 \begin{equation}
@@ -127,8 +137,14 @@ $$
 \prod_{k=1}^{\pi(z)}\frac{k+1}{k}=\pi(z)+1
 \end{equation}
 $$
+  
+  
 Thus,  
+  
+  
 $$
 \ln{z}\le \pi(z)+1
-$$
+$$  
+  
+  
 Since the natural logarithm is unbounded ($\ln{z}\rightarrow\infty$ as $z\rightarrow\infty$), we have a contradiction and $\pi(z)$ can not be bounded. Thus, $\pi(z)$ is unbounded and there are infinitely many primes.  
