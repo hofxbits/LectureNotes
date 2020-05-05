@@ -13,9 +13,10 @@ title: "Using Natural Logarithm"
 Assume that the number of primes is bounded.  
 
 The number of primes less than or equal to a real number $z$ is given by  
-$$
+  
+$$  
 \pi(x) :=\#\{p\le z:p\in\mathbb{P} \}, \text{ where }\mathbb{P}\text{ is the set of primes }p_1,p_2,p_3\ldots
-$$
+$$  
 
 ##### Steps:  
 
@@ -40,6 +41,8 @@ $$
 f'(t) = -\frac{1}{t^2}\qquad\text{and}\qquad f''(t) = \frac{2}{t^3} \\
 \forall{t>1},\ \ f'(t) < 0\ \text{ and }\ f''(t) > 0
 $$    
+  
+    
 Thus, $f(t)$ has a negative slope and is convex everywhere for $t>1$ and is monotonically decreasing.  
 
 ![function1](../images/psy_function1.png)
@@ -68,7 +71,7 @@ $$
 \text{Left Riemann Sum} \ge \int_1^x f(t) \ge \text{Right Riemann Sum}
 $$  
 
-Focusing on the Left Riemann Sum and according to the definition of the logarithm:  
+Focusing on the Left Riemann Sum and by the definition of the logarithm:  
   
 $$  
 \ln{x}\le \text{Left Riemann Sum approximation}
@@ -86,12 +89,14 @@ $$
 1+\frac{1}{2}+\frac{1}{3}+\ldots+\frac{1}{n-1} +\frac{1}{n} \le \sum\frac{1}{m}
 $$  
 
-where $m\in\N$ such that they only have prime divisors $p\le z$. Thus  
+where $m\in\mathbb{N}$ such that they only have prime divisors $p\le z$. Thus  
   
 $$  
 \ln{z} \le \sum\frac{1}{m}
 $$  
-
+  
+---
+  
 ##### 3. Fundamental theorem of arithmetic  
 
 By the fundamental theorem of arithmetic, each $m$ can be written in a unique way as a product of primes:  
@@ -121,8 +126,9 @@ $$
 \ln{z} \le \prod_{p\le z}\frac{1}{1-\frac{1}{p}} \\
 \ln{z} \le \prod_{p\le z}\frac{p}{p-1} \\
 $$    
-
-
+  
+---
+  
 ##### 4. Tricks of bounds   
   
 The bound on the product above $p \le z$ can be expressed in terms of primes indexed by $k$ where $k$ extends from the first prime ($k=1$) to the last prime, bounded by $\pi(z)$  
@@ -171,3 +177,5 @@ $$
   
   
 Since the natural logarithm is unbounded ($\ln{z}\rightarrow\infty$ as $z\rightarrow\infty$), we have a contradiction and $\pi(z)$ can not be bounded. Thus, $\pi(z)$ is unbounded and there are infinitely many primes.  
+  
+---
