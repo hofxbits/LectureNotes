@@ -15,7 +15,7 @@ Strategy: assume that the number of primes is bounded and use the natural logari
 The number of primes less than or equal to a real number $z$ is given by  
   
 $$  
-\pi(x) :=\#\{p\le z:p\in\mathbb{P} \}, \text{ where }\mathbb{P}\text{ is the set of primes }p_1,p_2,p_3\ldots
+\pi(z) :=\#\{p\le z:p\in\mathbb{P} \}, \text{ where }\mathbb{P}\text{ is the set of primes }p_1,p_2,p_3\ldots
 $$  
 
 #### Steps:  
