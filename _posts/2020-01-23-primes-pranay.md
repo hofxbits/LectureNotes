@@ -39,7 +39,7 @@ f'(t) = -\frac{1}{t^2}\qquad\text{and}\qquad f''(t) = \frac{2}{t^3} \\
 $$    
 Thus, $f(t)$ has a negative slope and is convex everywhere for $t>1$ and is monotonically decreasing.  
 
-<img src="../images/psy_function1.png" alt="functionplot" style="zoom:33%;" />
+![function1](../images/psy_function1.png)
 
 ---
 
@@ -47,7 +47,7 @@ Thus, $f(t)$ has a negative slope and is convex everywhere for $t>1$ and is mono
 
 Consider the points $a,\ b,\ x$ as values of $t$ for the function $f(t)$ such that $a \le x \le b$:  
 
-<img src="../images/psy_function2.png" style="zoom:33%;" />
+![function2](../images/psy_function2.png)
 
 Since $f(t)$ is monotonically decreasing,  
 $$
@@ -94,11 +94,9 @@ $$
 \qquad \qquad \frac{1}{p_1p_2}+\frac{1}{p^2_1p_2}+\frac{1}{p^3_1p_2}+\ldots \\
 \qquad \qquad \frac{1}{p_1p^2_2}+\frac{1}{p^2_1p^2_2}+\frac{1}{p^3_1p^2_2}+\ldots \\
 \sum\frac{1}{m}=(1+\frac{1}{p_1}+\frac{1}{p^2_1}+\frac{1}{p^3_1}+\ldots)(1+\frac{1}{p_2}+\frac{1}{p^2_2}+\frac{1}{p^3_2}+\ldots) \\
-$$
-Thus, for all primes $p\le z$ the sum can be written as  
-  
-  
-$$
+\\
+\text{Thus, for all primes $p\le z$ the sum can be written as}  \\
+\\  
 \ln{z} \le \sum\frac{1}{m} = \prod_{p\le z}({\sum_{k\ge 0}\frac{1}{p^{k}}}) \\
 \text{where the inner sum }{\sum_{k\ge 0}\frac{1}{p^{k}}} \text{ is a geometric series with ratio }\frac{1}{p} \\
 \ln{z} \le \prod_{p\le z}\frac{1}{1-\frac{1}{p}} \\
