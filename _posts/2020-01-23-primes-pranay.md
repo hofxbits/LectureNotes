@@ -6,19 +6,19 @@ author: Pranay Yadav
 title: "Using Natural Logarithm"
 ---
 
-### Fourth Proof for the infinitude of primes using calculus  
+## Fourth Proof for the infinitude of primes using calculus  
 
-#### Proof by contradiction  
+### Proof by contradiction  
 
 Strategy: assume that the number of primes is bounded and use the natural logarithm to undermine this bound.   
 
-The number of primes less than or equal to a real number $z$ is given by  
+Bound: The number of primes less than or equal to a real number $z$, given by  
   
 $$  
 \pi(z) :=\#\{p\le z:p\in\mathbb{P} \}, \text{ where }\mathbb{P}\text{ is the set of primes }p_1,p_2,p_3\ldots
 $$  
 
-#### Steps:  
+### Steps:  
 
 1. The natural logarithm is monotonically decreasing  
 2. Left Riemann sum approximation of the natural logarithm corresponds to the harmonic numbers   
@@ -27,7 +27,7 @@ $$
 
 ---
 
-#### 1. The natural logarithm is monotonically decreasing  
+### 1. The natural logarithm is monotonically decreasing  
 
 The natural logarithm is defined as:  
 
@@ -49,7 +49,7 @@ Thus, $f(t)$ has a negative slope and is convex everywhere for $t>1$ and is mono
 
 ---
 
-#### 2. Left Riemann sum approximation of the natural logarithm  
+### 2. Left Riemann sum approximation of the natural logarithm  
 
 Consider the points $a,\ b,\ x$ as values of $t$ for the function $f(t)$ such that $a \le x \le b$:  
 
@@ -97,7 +97,7 @@ $$
   
 ---
   
-#### 3. Fundamental theorem of arithmetic  
+### 3. Fundamental theorem of arithmetic  
 
 By the fundamental theorem of arithmetic, each $m$ can be written in a unique way as a product of primes:  
   
@@ -129,7 +129,7 @@ $$
   
 ---
   
-#### 4. Tricks of bounds   
+### 4. Tricks of bounds   
   
 The bound on the product above $p \le z$ can be expressed in terms of primes indexed by $k$ where $k$ extends from the first prime ($k=1$) to the last prime, bounded by $\pi(z)$  
   
