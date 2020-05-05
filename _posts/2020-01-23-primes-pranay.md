@@ -114,15 +114,18 @@ $$
 \ln{z} \le \prod_{k=1}^{\pi(z)}\frac{p}{p-1} \\
 $$  
 
+
 Examining the trends of primes and their respective indexes, at index $k=1,\ p_1=2$, at $k=2,\ p_2=3$, at $k=3,\ p_3=5$ and so on, leading to the observation that the primes grow faster than their index (enumeration), formally stated as:  
-$$
+  
+  
+$$$
 p_k\ge k+1 \\
 \text{Rearranging terms:}\\
 p_k-1\ge k \\
 \frac{1}{p_k-1}\le \frac{1}{k} \\
 1+\frac{1}{p_k-1}\le 1+\frac{1}{k} \\
 \frac{p}{p_k-1}\le \frac{k+1}{k} \\
-$$
+$$$
   
   
   
