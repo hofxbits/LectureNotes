@@ -120,10 +120,12 @@ p_k-1\ge k \\
 $$
 Substituting this inequality in the product above:  
 $$
+\begin{equation}
 \ln{z} \le \prod_{k=1}^{\pi(z)}\frac{k+1}{k} \\
 \text{But, }\prod_{k=1}^{\pi(z)}\frac{k+1}{k} = \frac{2}{1}+\frac{3}{2}+\frac{4}{3}+\ldots+\frac{\pi(z)-1}{\pi(z)-2}+\frac{\pi(z)}{\pi(z)-1}+\frac{\pi(z)+1}{\pi(z)}\\
 \text{Alternate numerators and denominators cancel out, leaving:}\\
 \prod_{k=1}^{\pi(z)}\frac{k+1}{k}=\pi(z)+1
+\end{equation}
 $$
 Thus,  
 $$
