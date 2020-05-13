@@ -24,7 +24,7 @@ This website contains lecture notes of the course __"Topics in Information Theor
 Each lecture note has been scribed by one or mmore of the students. The name of the scribe appears at the top of each lecture note.
 
 ## Logo
-
+![Logo](images/logo.png)
 Designed by Abhishek Nandekar. The shape represents an iteration of the __Koch Island__, which
 is a fractal (when iterated to eternity). Each side of the Island is the Koch Curve which has a fractal
 dimension (box-counting dimension) of 1.28. The interior contains **binary digits** (“bits”) and the title
