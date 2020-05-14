@@ -9,11 +9,11 @@ logo_small: false
 This website contains lecture notes of the course __"Topics in Information Theory, Chaos and Causal Learning"__(2 credits) offered at __National Institute of Advanced Studies(NIAS)__ during Jan-May 2020.
 
 ## Instructor
-[**Dr. Nithin Nagaraj**](https://sites.google.com/site/nithinnagaraj2/)
+[**Dr. Nithin Nagaraj**](https://sites.google.com/site/nithinnagaraj2/).  A few lectures were given by Ms. Aditi Kathpalia (on Causality).
 
 ## Students
 
-1. Abhishek Nandekar(NIAS)
+1. Abhishek Nandekar (NIAS)
 2. Harikrishnan N. B.(NIAS)
 3. Dr. Pranay Yadav (NIAS)
 4. Aditi Kathpalia (NIAS)
@@ -21,7 +21,7 @@ This website contains lecture notes of the course __"Topics in Information Theor
 
 ## Scribe
 
-Each lecture note has been scribed by one or mmore of the students. The name of the scribe appears at the top of each lecture note.
+Each lecture note has been scribed by one or more of the students. The name of the scribe appears at the top of each lecture note.
 
 ## Logo
 ![Logo](images/logo.png)
