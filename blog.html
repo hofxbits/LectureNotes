@@ -6,7 +6,7 @@ logo_small: false
 <h1>Lectures</h1>
 <ul>
     {% for post in site.posts reversed %}
-    {% if post.type != "proof" %}
+    {% if post.type == "" %}
     <li>
         <h4><a href="/LectureNotes/{{ post.url }}">{{post.title}}</a></h4>
         <p></p>
@@ -25,4 +25,16 @@ logo_small: false
     </li>
     {% endif %}
     {% endfor %}
+</ul>
+<h1>Lectures on Causality</h1>
+<h3>By: Aditi Kathpalia</h3>
+<ul>
+  {% for post in site.posts reversed %}
+  {% if post.type == "Causality" %}
+  <li>
+      <h4><a href="/LectureNotes/{{ post.url }}">{{post.title}}</a></h4>
+      <p></p>
+  </li>
+  {% endif %}
+  {% endfor %}
 </ul>
