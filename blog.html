@@ -26,6 +26,19 @@ logo_small: false
     {% endif %}
     {% endfor %}
 </ul>
+
+<h1>Homework Assignments</h1>
+<ul>
+    {% for post in site.posts reversed %}
+    {% if post.type == "homework" %}
+    <li>
+        <h4><a href="/LectureNotes/{{ post.url }}">{{post.title}}</a></h4>
+        <p></p>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
 <h1>Lectures on Causality</h1>
 <h3>By: Aditi Kathpalia</h3>
 <ul>
