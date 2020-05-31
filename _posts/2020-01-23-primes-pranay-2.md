@@ -76,7 +76,9 @@ Consider an element $x \in X$. Using the fundamental theorem of arithmetic, $x$ 
 
 ​    
 $$
-x = p_{1}^{a_1}p_{2}^{a_2}p_{3}^{a_3}\ldots p_{k}^{a_k}
+\begin{equation} \\
+x = p_{1}^{a_1}p_{2}^{a_2}p_{3}^{a_3}\ldots p_{k}^{a_k} \\
+\end{equation} \\
 $$
 ​    
 
@@ -84,7 +86,9 @@ Equivalently, $x$ can also be factorized into a square-free part and a square. F
 
 
 $$
-x=r^2 (p_{1}^{a'_1}p_{2}^{a'_2}p_{3}^{a'_3}\ldots p_{k}^{a'_k})
+\begin{equation} \\
+x=r^2 (p_{1}^{a'_1}p_{2}^{a'_2}p_{3}^{a'_3}\ldots p_{k}^{a'_k}) \\
+\end{equation} \\
 $$
 ​    
 
@@ -97,10 +101,12 @@ The number $r^2$ can be at most as large as $x$ - if $x$ is a perfect square, wh
 
 ​    
 $$
+\begin{equation} \\
 r^2 \le x \le N \\
 r \le \sqrt{N} \\
 \text{taking only the integer part:}\\
-r \le \lfloor \sqrt{N}\rfloor
+r \le \lfloor \sqrt{N}\rfloor \\
+\end{equation} \\
 $$
 ​    
 
@@ -121,8 +127,10 @@ For a prime number $p_i$, the integer part of $\frac{N}{p_i}$ reflects the numbe
 
 ​    
 $$
+\begin{equation} \\
 |Y| \le \lfloor \frac{N}{p_{k+1}}\rfloor + \lfloor \frac{N}{p_{k+2}}\rfloor + \ldots \\
 |Y| \le \sum_{i>k}\ \lfloor \frac{N}{p_{i}}\rfloor
+\end{equation} \\
 $$
 ​    
 
@@ -130,7 +138,9 @@ Since the floor function is always at least as small as the value passed into it
 
 ​    
 $$
+\begin{equation} \\
 |Y| \le \sum_{i>k}\ \lfloor \frac{N}{p_{i}}\rfloor \le \sum_{i>k}\ \frac{N}{p_{i}}
+\end{equation} \\
 $$
 ​    
 
@@ -147,15 +157,19 @@ $$
 
 ### Conflict
 
-A value for $N$ can be chosen such that $2^k \sqrt N \le \frac{N}{2}$. Solving provides one such value for $N = 2^{2k+2}$. Substituting this in equations $4$ and $5$, and solving for $|X|+|Y|$ gives:    
+A value for $N$ can be chosen such that $2^k \sqrt N \le \frac{N}{2}$. Solving provides one such value for $N = 2^{2k+2}$.   
+
+Substituting this in equations $4$ and $5$:    
 
 ​    
 $$
+\begin{equation} \\
 |X|+|Y| < 2^k \lfloor \sqrt(2^{2k+2}) \rfloor + \frac{2^{2k+2}}{2} \\
 = 2^k 2^{k+1} + 2^{2k+1} = 2^{2k+1} + 2^{2k+1} = 2^{2k+2} \\
 |X|+|Y| < 2^{2k+2} \\
 \text{But, }|S| = N = 2^{2k+2}, \text{ and thus we have here:} \\
-|X|+|Y| < |S|
+|X|+|Y| < |S| \\
+\end{equation} \\
 $$
 ​    
 
