@@ -23,7 +23,7 @@ $$
 2^p \equiv 1 \,(\mod q)
 \label{eq_1}
 \end{equation}
-$$  
+$$
 To explain congruence and modular arithmetic (the notations of $\equiv$ and $\mod{}$) as well as some amount of group theory (which will be used in the proof), we take a detour and then come back to the proof.
 
 __Detour__
@@ -92,7 +92,7 @@ A group $G$ is said to be cyclic if it contains an element $a$ such that the pow
 
 $$
 \ldots a^{-3}, a^{-2}, a^{-1}, a^0=e, a, a^2, a^3, \ldots
-$$   
+$$
 
 comprise the whole group; such an element $a$ is said to generate the group and is called a generator.
 
@@ -115,15 +115,15 @@ $$
   ax_0+qy_0=1
   \label{eq_gcd_1}
   \end{equation}
-  $$
+$$
 
-  $$
+$$
   \begin{equation}
   \tag{GCD2}
   bx_1+qy_1=1
   \label{eq_gcd_2}
   \end{equation}
-  $$
+$$
 
   From Eqs. $\ref{eq_gcd_1}$ and $\eqref{eq_gcd_2}$, we get,  
 
@@ -136,7 +136,7 @@ ax_0bx_1+ax_0qy_1+qy_0bx_1+qy_0qy_1 =1 \\
 ab(x_0x_1)+q(ax_0y_1+y_0bx_1+qy_0y_1) =1
 \label{eq_gcd_3}
 \end{equation*}
-$$      
+$$
 
 
 
