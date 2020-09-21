@@ -28,9 +28,11 @@ C &= (n!)\{\frac{1}{2} + \frac{1}{3}(\frac{1}{2}) + \frac{1}{5}(1 - \frac{2}{3})
 C &= (n!)\{\frac{1}{2} + \frac{1}{6} + \frac{1}{15} + \frac{4}{3\cdot 5 \cdot 7} + \frac{4 \cdot 6}{3\cdot 5 \cdot 7 \cdot 11}+ \frac{4 \cdot 6 \cdot 10}{3\cdot 5 \cdot 7 \cdot 11 \cdot 13}+ \ldots +\} \\
 C &= (n!)\{\frac{11}{15} + \frac{4}{15} [\frac{1}{7} + \frac{6}{7 \cdot 11} + \frac{6 \cdot 10}{7\cdot 11 \cdot 13} \ldots ]\} \\
 C &= (n!)\{\frac{11}{15} + \frac{4}{15}X\}
-\end{align*}$$
-where,
-$$ X  = \frac{1}{7} + \frac{6}{7 \cdot 11} + \frac{6 \cdot 10}{7\cdot 11 \cdot 13} \ldots $$    
+\end{align*}$$        
+
+where,    
+
+$$ X  = \frac{1}{7} + \frac{6}{7 \cdot 11} + \frac{6 \cdot 10}{7\cdot 11 \cdot 13} \ldots $$      
 
 
 We claim that $X<1$ and hence:
@@ -69,6 +71,7 @@ $$\begin{align*}
 X &< 1
 \end{align*}$$
 
+---
 
 >**Corollary:** For all natural numbers $n>0$, there exists at least one prime number between $n+1$ and $n + n!$  
 
